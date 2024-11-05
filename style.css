@@ -1,0 +1,146 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: black;
+}
+marquee{
+	direction: right;
+	background: #009245;
+	scroll-behavior: auto;
+	position: fixed;
+	top: 1px;
+	width: 100%;
+	height: 30px;
+	scrollamount: 60;
+	align-content: center;
+}
+.line {
+	color: aliceblue;
+	font-size: 16px;
+}
+
+h1{
+	width: 30%;
+	float: left;
+	padding: 5px;
+	background-color: black;
+	border-radius: 15px;
+	text-align: center;
+	color: white;
+	font-size: 38px;
+}
+.logo{
+	display: flex;
+	filter: drop-shadow(5px 5px 4px black);
+	width: 300px;
+	align-content: center;
+	padding: 30px 0 10px 0 ;
+	margin: 10px 10px 0 0 ;
+	float: right;
+}
+.name1 {
+	display: block;
+	text-decoration: none;
+	list-style-type: none;
+	overflow: hidden;
+	align-content: center;
+	background: linear-gradient(to left, white, #009245);
+	color: antiquewhite;
+	width: 100%;
+	height: 35px;
+	float: left;
+	padding: 0 10px 0 10px;
+}
+.product {
+	display: block;
+	text-align: center;
+	align-items: center;
+	align-content: space-around;
+	justify-content: space-around;
+	padding: 10px 0 0px 0px;
+	margin: 120px 10px -10px 10px;
+}
+.img{ 
+	border-radius: 7px;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+	justify-content: space-around;
+	width: 300px;
+	padding: 10px 0 20px 0;
+	text-align: center;
+	transform: translate(-5px, -10px);
+}
+.img:hover{
+	transform: translateY(-15px);
+}
+.img:hover > :not(:hover){
+	opacity: 0.5;
+}
+
+.nf {
+	text-align: center;
+	color: white;
+}
+.price {
+	text-align: center;
+	color: red;
+	font-size: 18px;
+	
+}
+.atc a{
+	cursor: pointer;
+	display: block;
+	text-decoration: none;
+	list-style-type: none;
+	overflow: hidden;
+	align-content: center;
+	text-align: center;
+	background-color: rgb(#009245);
+    color: rgba(0,146,69,1.00);
+	border: 1px #009245 solid;
+	border-radius: 5px 30px 20px 40px;
+	box-shadow: 6px 6px 12px gray;
+	font-size: 20px;
+	height: 30px;
+	padding: 4px 0;
+	margin: 10px 10px 10px 10px;
+}
+.atc:active {
+  scale: 0.92;
+}
+
+.atc a:hover {
+  background: linear-gradient(to right, #009245, black);
+  border-radius: 5px 30px 20px 40px;
+  color: rgba(255,255,255,1.00);
+}
+
+.img4:hover {
+	box-shadow: drop-shadow(1px 10px 15px rgba(250, 113, 33, 0.925));
+}
+.details{
+	align-content: center;
+	box-shadow: 10px;
+	justify-content: space-around;
+}
+.column{
+	width: 27%;
+	float: left;
+	padding: 20px;
+
+}
+.column1{
+	display: block;
+	float: right;
+	width: 60%;
+	background-color: blue;
+	color: aliceblue;
+	text-align: center;
+	border-radius: 10px;
+	height: 100%;
+	padding: 20px 0 10px 100px;
+}
+.text{
+	text-align: start;
+	font-size: 20px;
+}

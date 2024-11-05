@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+	color: aliceblue;
+}
+
+.about-us {
+    background-color: #000000;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about-us {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about-us p{
+    color: #666;
+    margin-bottom: 30px;
+}
+
+

@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+h3 {
+	width: 330px;
+}
+span {
+	text-align: right;
+}
+.body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: #00000;
+	color: white;
+	box-shadow: 6px 6px 12px gray;
+	float: none;
+	margin: 20px 20px 0 0px ;
+	padding: 10px 20px 20px 0;
+	border-radius: 10px;
+	width: 50%;
+	height: 70%;
+}
+
+
+.dtn{
+	text-align: center;
+	background: linear-gradient(to right, #009245, #8CC63F, #009245);
+	color: white;
+	border-radius: 5px;
+	height: 5px;
+	padding: 5px 0 0 0 0;
+}
+.dti {
+	text-align: justify;
+	color: aliceblue;
+	font-size: 16px;
+}
+.pic {
+	display: flex;
+	padding: 40px ;
+	align-items: flex-end;
+}

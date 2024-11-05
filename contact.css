@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* From Uiverse.io by Yaya12085 */ 
+.form {
+  position: relative;
+  display: flex;
+  align-items: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 800px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 20px 40px 40px -10px rgba(27, 26, 26, 0.315);
+}
+
+.form .title {
+  color: #009245;
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: -1px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form input {
+  outline: 0;
+  border: 1px solid rgb(219, 213, 213);
+  padding: 10px 14px;
+  border-radius: 8px;
+  width: 100%;
+  height: 50px;
+}
+
+.form textarea {
+  border-radius: 8px;
+  height: 100px;
+  width: 100%;
+  resize: none;
+  outline: 0;
+  padding: 8px 14px;
+  border: 1px solid rgb(219, 213, 213);
+}
+.form button {
+  align-self: flex-end;
+  padding: 8px;
+  outline: 0;
+  border: 0;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #009245;
+  color: #fff;
+  cursor: pointer;
+}
+    
+
+* {
+   box-sizing: border-box;
+}
+
+footer {
+    background: linear-gradient(to right,#5DBB63, #009245);
+    padding: 30px;
+    color: #fff;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-option {
+    text-align: center;
+}
+
+.contact-option .icon {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-option h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.contact-option .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.contact-option .btn:hover {
+    background-color: #fff;
+    color: #009245;
+}
+
+.contact-option p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icons a img {
+    width: 32px;
+    height: 32px;
+    /* For white icons on dark background */
+}
+.nicon {
+	transform: translate(-1.2px);
+}
+.nicon:hover{
+	transform: translateY(-5px);
+}
+.nicon:hover > :not(:hover) {
+	opacity: 1.5;
+}
+
